@@ -10,7 +10,7 @@ The project contains four .java files:
  edu.rit.annotation.RepeatableAnnotations: 
 	This interface allows to use the same annotation multiple times in the same place. Right now, it is not working, but it would be         corporated in the final project.
  
- edu.rit.annotation.StreamsFactory:                                                                                                       
+ edu.rit.annotation.StreamsFactory:
 	Interface with two parameters:                                                                                                  
 		query, the SQL statement.                                                                                                 
 		name, the name of the method created for the annotation processor.

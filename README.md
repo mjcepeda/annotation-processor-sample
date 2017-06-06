@@ -10,12 +10,12 @@ The project contains four .java files:
  edu.rit.annotation.RepeatableAnnotations: 
 	This interface allows to use the same annotation multiple times in the same place. Right now, it is not working, but it would be         corporated in the final project.
  
- edu.rit.annotation.StreamsFactory: 
-	Interface with two parameters: 
-		query, the SQL statement.
+ edu.rit.annotation.StreamsFactory:                                                                                                       
+	Interface with two parameters:                                                                                                  
+		query, the SQL statement.                                                                                                 
 		name, the name of the method created for the annotation processor.
 
- edu.rit.annotation.processor.StreamProcessor:
+ edu.rit.annotation.processor.StreamProcessor:                                                                                           
 	Process all the classes that use the StreamsFactory annotation. For every class that uses that annotation, the processor will create a   class named StreamQueries with a method which name is the value of the name attribute from StreamsFactory annotation. (This is not a     good solution, but this is just an example and the annotation is just used in one class)
  
  HelloAnnotationProcessor:
